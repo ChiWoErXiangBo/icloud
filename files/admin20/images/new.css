@@ -1,0 +1,161 @@
+#container{
+		width:1000px;
+		margin: 0 auto;
+	}
+
+#head{
+	width: 1000px;
+	height: 130px;
+	background: url(./top_bg.jpg);
+}
+#nav li{
+	position: relative;
+    top:3px;
+	list-style:none;
+    float:left;
+    width:90px;
+    height:37px;
+    border-radius:15px;
+    margin-right:2px;
+}
+
+#nav li a:link {
+    display:block;
+    width:90px;
+    height:37px;
+    border-radius:5px 0px 0px 5px;
+    text-align:center;
+    font:15px/37px simhei; 
+    color:#363636;
+}
+
+#nav li a:visited {
+    color:#363636;
+}
+
+#nav li a:hover {
+    background:url(./nav_on.gif);
+    color:#FFF;
+}
+
+#main {
+    width: 690px;
+    height: 700px;
+    background:#EEE;
+    float: left;
+    margin-right: 12px；
+}
+#main2{
+    width: 300px;
+    height: 700px;
+    float: right;
+    background:#EEE;
+}
+.imgArea {
+    width: 380px;
+    height: 520px;
+    position: relative;
+    margin:5px;
+    left: 100px;
+    background: white;
+
+}
+.imgArea img{
+    margin: 5px;
+    background: white;
+    position: relative;
+    margin: 0 auto;
+}
+.subtitle{
+    height: 30px;
+    background: url(./index_main_top_bg.gif);
+
+}
+.subtitle img{
+    margin-left: 10px;
+    float: left;
+    display: block;
+}
+.subtitle h1{
+    float: left;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+}
+.subtitle a{
+    display: block;
+    float: right;
+    font-family: "宋体";
+    font-size: 16px;
+}
+
+#footer {
+    position: relative;
+    top: 700px;
+    margin-top:10px;
+    width:1002px;
+    height:53px;
+    background:#EEE;
+}
+#art a{
+    height: 30px;
+    font-size: 16px;
+    color: black;
+    background: url(./article_head.gif) no-repeat;
+    padding-left: 30px;
+    display: block;
+    line-height: 30px;
+    text-align: left;
+}
+#art a:visited{
+    color: black;
+}
+#art a:hover{
+    color: orange;
+    background: url(./article_on_bg.gif);
+}
+
+#lan{
+    margin-top: 50px;
+}
+#zhengwen{
+    font-size: 19px;
+    line-height: 150%;
+}
+#text{
+    height: 100px;
+    width: 660px;
+    background: #EEE;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.comment{
+    text-align: center;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+#body2{
+    width: 1002px;
+    height: 600px;
+    background: #EEE;
+}
+#img1{
+    float: left;
+}
+
+#form1{
+    float: left;
+    position: relative;
+    top: 70px;
+    font-size: 15px;
+}
+#id{
+    font-size: 20px;
+    font-family: "宋体"；
+    float:left;
+}
+#totalPrice{
+    font-size: 20px;
+    color: red;
+}
